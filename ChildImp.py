@@ -13,6 +13,9 @@ class ChildImpl(Calculator):
     def getpartialadd(self):
         return self.num2 + self.num
 
+    def getsub(self):
+        return self.num2-self.num
+
 
 obj = ChildImpl()
 print(obj.getCompleteData())
