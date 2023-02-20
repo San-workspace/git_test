@@ -16,6 +16,9 @@ class ChildImpl(Calculator):
     def getsub(self):
         return self.num2-self.num
 
+    def getsub(self):
+        return self.num2*self.num
+
 
 obj = ChildImpl()
 print(obj.getCompleteData())
