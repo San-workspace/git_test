@@ -10,9 +10,6 @@ class ChildImpl(Calculator):
     def getCompleteData(self):
         return self.num2 + self.num + self.Summation()
 
-    def getpartialadd(self):
-        return self.num2 + self.num
-
     def getsub(self):
         return self.num2-self.num
 
